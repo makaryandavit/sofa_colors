@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    width: 300px;
+    height: 250px;
+    background-image: url(images/BG.png);
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.item{
+    position: absolute;
+}
+
+.logo{
+    top: 16px;
+    left: 18px;
+}
+
+.sofa{
+    left: 65px;
+    top: 100px;
+    filter: drop-shadow(0 0 3px black);
+}
+
+
+.lamp{
+    left: 16px;
+    top: 62px;
+}
+
+.picture{
+    left: 94px;
+    top: 22px;
+}
+
+.shelf{
+    left: 161px;
+    top: 7px;
+}
+
+.light{
+    left: 249px;
+    top: -11px;
+}
+
+.plants{
+    left: 239px;
+    top: 95px;
+}
+
+.banner-info{
+    width: 80%;
+    height: 30%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 3px;
+}
+
+.colors{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.color{
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.firstColor{
+    background-color: #9DAC96;
+}
+
+.secondColor{
+    background-color: rgb(159, 121, 98);
+}
+
+.thirthColor{
+    background-color: rgb(216,150,89);
+}
+
+.fourthColor{
+    background-color: rgb(62,64,50);
+}
+
+.fifthColor{
+    background-color: rgb(77,76,71);
+}
+
+p{
+    white-space: nowrap;
+    color: white;
+    font-style: italic;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 8.5px;
+    font-size: 11px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
